@@ -6,64 +6,152 @@
     <title>Ejercicio 1 HTML - Miguel Puentes</title>
 </head>
 <body>
-    <header>
+    <header id="Mensaje_Bienvenida">
         <h1>¡Bienvenido!</h1>
-        <imq src="images/profilePicture.jpg"></imq>
+        <img src="images/profile.jpg"
+     alt="Fotografía de perfil Miguel Angel Puentes Ramirez"
+     width="142"
+     height="231">
     </header>
     <nav>
         <ul>
             <li><a href="#Inicio_Bienvenida">Inicio</a></li>
             <li><a href="#Biografia">Biografía</a></li>
             <li><a href="#Academico">Académico</a></li>
-            <li><a href="#Interes">Sitios de interés</a></li>
+            <li><a href="#Sitios_Interes">Sitios de interés</a></li>
             <li><a href="#Contacto">Contacto</a></li>
         </ul>
     </nav>
     <main>
         <section id="Inicio_Bienvenida">
-            <h2>Hola!</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos possimus porro atque explicabo enim perferendis officia eaque fugit, nobis ad dicta, earum tenetur? Accusamus dolores reiciendis harum architecto totam natus voluptate distinctio deleniti veniam pariatur. Deleniti a vero cumque eum. Eius, iure error quibusdam culpa quisquam aliquid voluptatum quidem soluta.
+            <h2>Hola! Bienvenido a mi página web</h2>
+            <p>En esta pagina Web podrás encontrar información muy importante sobre mí<br/>
+            y sobre mis intereses. La información está dividida en secciones que contienen <br/>
+            datos biográficos, información académica, sitios de interés e información de contacto.</p>
+            <h3>Información importante:</h3>
+            <p>Esta página web se desarrolla y se presenta únicamente con fines academicos</br>
+                y no pretender lucrarse de ningún contenido multimedia presentado en la misma.
             </p>
         </section>
         <section id="Biografia">
-            <h2>Mi biografía</h2>
+            <h2>Biografía</h2>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos possimus porro atque explicabo enim perferendis officia eaque fugit, nobis ad dicta, earum tenetur? Accusamus dolores reiciendis harum architecto totam natus voluptate distinctio deleniti veniam pariatur. Deleniti a vero cumque eum. Eius, iure error quibusdam culpa quisquam aliquid voluptatum quidem soluta.
+                A continuación se presenta una tabla con la información biográfica, </br>
+                esta inormación se encuentra distribuida en filas por el perdiodo </br>
+                de tiempo en el que se sitúan:
             </p>
+            <table class="egt">
+                <tr>
+                  <th>Fecha</th>
+                  <th>Título</th>
+                  <th>Descripción</th>
+                </tr>
+                <tr>
+                  <td>25-06-1999</td>
+                  <td>Nacimiento</td>
+                  <td>Nací el 25 de Junio de 1999, en la ciudad de Bogotá aproximadamente al medio día.</td>
+                </tr>
+                <tr>
+                  <td>10-12-2009</td>
+                  <td>Practicas Deportivas</td>
+                  <td>En esta fecha inicio prácticas deportivas en una academia de fútbol.</td>
+                </tr>
+                <tr>
+                  <td>10-12-2012</td>
+                  <td>Torneo de Ajedrez</td>
+                  <td>En esta fecha participo y termino como subcampeón en dos torneos de ajedrez principiantes.</td>
+                </tr>
+                <tr>
+                    <td>16-01-2013</td>
+                    <td>Curso Guitarra</td>
+                    <td>En esta fecha inicio un curso para aprender a tocar guitarra, sin embargo, a los 6 meses abandono el curso.</td>
+                  </tr>
+              </table>
         </section>
         <section id="Academico">
             <h2>Información Académica</h2>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos possimus porro atque explicabo enim perferendis officia eaque fugit, nobis ad dicta, earum tenetur? Accusamus dolores reiciendis harum architecto totam natus voluptate distinctio deleniti veniam pariatur. Deleniti a vero cumque eum. Eius, iure error quibusdam culpa quisquam aliquid voluptatum quidem soluta.
+                A continuación se presenta una lista con la información académica, </br>
+                esta inormación se encuentra distribuida en filas y organizadas por el perdiodo </br>
+                de tiempo en el que se sitúan:
             </p>
+            <dl>
+                <dt><strong>Finalización primaria - 10-12-2009</strong></dt>
+                <dd>En esta fecha termino mis estudios de educación básica primaria.</dd>
+                <dt><strong>Finalización Secundaria - 10-12-2015</strong></dt>
+                <dd>En esta fecha termino mis estudios de educación básica secundaria.</dd>
+                <dt><strong>Inicio Pregrado - 16-01-2016</strong></dt>
+                <dd>En esta fecha inicio mis estudios de educación superior en Uniandes para Ingeniería de Sistemas.</dd>
+                <dt><strong>Finalizacion Inglés - 10-06-2019</strong></dt>
+                <dd>En esta fecha termino mis estudios de lengua extranjera Inglés para nivel B2 según el MCE.</dd>
+            </dl> 
         </section>
         <section id="Sitios_Interes">
             <h2>Sitios de Interés</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos possimus porro atque explicabo enim perferendis officia eaque fugit, nobis ad dicta, earum tenetur? Accusamus dolores reiciendis harum architecto totam natus voluptate distinctio deleniti veniam pariatur. Deleniti a vero cumque eum. Eius, iure error quibusdam culpa quisquam aliquid voluptatum quidem soluta.
+            <p>A continuación, se muestran algunos videos y sitios web de interés sobre</br>
+            música, ciencia y astronomía.
             </p>
+            <h3>Videos</h3>
+            <h4>Vista de la tierra desde la Estación Espacial Internacional</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xg9R4yykvqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>Asombrosa asaña de SpaceX - Cohete reutilizable</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sX1Y2JMK6g8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Enlaces de interés</h3>
+            <ul>
+                <li><a href="https://www.nature.com/">Revista Nature</a></li>
+                <img src="images/Nature.png" alt="Fotografía de Revista Nature"
+                    width="477"
+                    height="252">
+                <li><a href="https://www.sciencemag.org/">Revista Science</a></li>
+                <img src="images/Science.png" alt="Fotografía de Revista Science"
+                    width="635"
+                    height="473">
+                <li><a href="https://www.sciencedaily.com/">Science Daily</a></li>
+                <img src="images/ScienceDaily.png" alt="Fotografía de Science Daily"
+                    width="301"
+                    height="96">
+                <li><a href="https://www.spacex.com/">Página SpaceX</a></li>
+                <img src="images/SpaceX.png" alt="Fotografía de SpaceX"
+                    width="633"
+                    height="436">
+            </ul>
         </section>
         <section id="Contacto">
             <h2>Contacto</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos possimus porro atque explicabo enim perferendis officia eaque fugit, nobis ad dicta, earum tenetur? Accusamus dolores reiciendis harum architecto totam natus voluptate distinctio deleniti veniam pariatur. Deleniti a vero cumque eum. Eius, iure error quibusdam culpa quisquam aliquid voluptatum quidem soluta.
-            </p>
+            <p>Si deseas contacterme puedes completar el siguiente formulario: </p>
+            <form id="fcf-form-id">
+        
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Tu nombre</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" required>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Tu dirección de correo</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" required>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Tu mensaje</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Contactar</button>
+                </div>
+            </form>
         </section>
     </main>
 </body>
-<aside>
-    <h2>Enlaces de interés</h2>
-    <ul>
-        <li>Link1</li>
-        <li>Link2</li>
-        <li>Link2</li>
-    </ul>
-</aside>
+<h2><a href="#Mensaje_Bienvenida">Regresar Arriba</a></h2>
 <footer>
     <p>Autor: Miguel Angel Puentes Ramirez</p>
     <p><a href="mailto:ma.puentes@uniandes.edu.co">ma.puentes@uniandes.edu.co</a></p>
-    <p>Tel. 3100000000</p>
+    <p>Tel. 310 000 0000</p>
+    <p>Dirección Oficina: Calle 100 # 20-35 Wtc</p>
     <p>Desarrollo Web - Universidad de los Andes</p>
-  </footer> 
+</footer> 
 </html>
